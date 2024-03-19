@@ -1,14 +1,10 @@
 #include <iostream>
 using namespace std;
 
-int mat(){
-    
+int tabela(int x, int y){
+
 }
 
-
-
-
-
-int main(){
-
+int mat(){
+    
 }

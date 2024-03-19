@@ -12,6 +12,6 @@ int somatorio(int n){
 }
 
 int main(){
-    int sum = somatorio(10);
+    int sum = somatorio(30);
     cout << sum << endl;
 }
