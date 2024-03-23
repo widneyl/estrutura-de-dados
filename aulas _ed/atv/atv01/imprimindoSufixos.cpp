@@ -3,7 +3,7 @@ using namespace std;
 
 char sufixos(char p[]){
     if(p == 0){
-        return p;
+        return p[0];
     }
     else{
         cout << p << endl;
