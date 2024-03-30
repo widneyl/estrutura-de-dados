@@ -1,17 +1,21 @@
 #include <iostream>
 using namespace std;
 
-char sufixos(char p[]){
-    if(p == 0){
-        return p[0];
+void sufixos(char *p){
+    
+    if(*p == '\0'){
+        return;
     }
     else{
-        cout << p << endl;
-        sufixos(p+1);
+        sufixos(p+1);  
+        cout << p << endl;  
     }
 }
 
 int main(){
-    char palavra[] = "Ola";
-    sufixos(palavra);
+    char entrada[100];
+    cin >> entrada;
+
+    sufixos(entrada);
+
 }

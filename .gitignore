@@ -1,0 +1,35 @@
+# Arquivos de compilação
+*.o
+*.obj
+*.out
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Arquivos de dependência
+*.dep
+*.d
+
+# Diretórios de construção
+build/
+bin/
+Debug/
+Release/
+
+# Arquivos temporários
+*.tmp
+*.temp
+
+# Arquivos de configuração específicos para o ambiente local
+.vscode/
+.idea/
+
+# Arquivos gerados pelo CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CMakeSettings.json
+
+# Arquivos gerados pelo Makefile
+Makefile
