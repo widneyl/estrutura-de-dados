@@ -1,23 +1,6 @@
 #include <iostream>
 using namespace std;
 
-void coefB(int n, int p)
-{
-    if (n == 1)
-    {
-        return;
-    }
-    else
-    {
-        int fat =0;
-        for (int i = n-1; n >= 1; i--){
-            for (int j = n; n > 1; j--){
-                fat = j*i;
-            }
-        }
-    }
-}
-
 int fat(int n){
     if (n == 1){
         return 1;
@@ -29,9 +12,13 @@ int fat(int n){
     }
 }
 
+int coef(int n, int k){
+    return fat(n) / (fat(k)) * (n - k);
+}
+
 int main()
 {
-   int re = fat(5);
+   int re = coef(8, 4);
    cout << re << endl;
     
 }
