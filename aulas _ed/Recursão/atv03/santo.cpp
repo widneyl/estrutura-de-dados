@@ -26,13 +26,13 @@ double doa = 0;
 
 double santoDPO(int i, int d) {
     if (i == 1) {
-        return d/2;
+        return d/2.00;
     } 
     else{
         // (20/2 + 20) /2 = 30
         // 30/2 + 20 /2 = 17.5
         
-        double y = (d/2) + doa;
+        double y = (d/2.00) + doa;
         
         
         return santoDPO(i-1, y);
@@ -48,5 +48,5 @@ int main() {
     *j = d;
 
     double x = santoDPO(i, d);
-    cout << x << endl;
+    cout << x << setprecision(2) << endl;
 }
