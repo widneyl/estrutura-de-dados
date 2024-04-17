@@ -29,4 +29,5 @@ int main(){
     int n;
     cin >> n;
     quadrado(n);
+    
 }
