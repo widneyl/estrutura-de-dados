@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+
 void somar(float *num, float value);
 void add(int *v);
 
